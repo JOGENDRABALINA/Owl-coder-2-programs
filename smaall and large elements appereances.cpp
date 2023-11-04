@@ -1,0 +1,5 @@
+n=input().split()
+n="".join(n)
+a=min(n)
+b=max(n)
+print(a,n.count(a),b,n.count(b))
